@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "asshole-io"
+version = "0.1.0"
+description = ""
+authors = ["judealnas <jude.alnas@duke.edu>"]
+readme = "README.md"
+packages = [{include = "asshole"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydealer = "^1.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
