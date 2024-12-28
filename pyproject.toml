@@ -4,11 +4,19 @@ version = "0.1.0"
 description = ""
 authors = ["judealnas <jude.alnas@duke.edu>"]
 readme = "README.md"
-packages = [{include = "asshole"}]
+packages = [{ include = "asshole" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 pydealer = "^1.4.0"
+ipykernel = "^6.29.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+flake8 = "^3.9.2"
+mypy = "^0.910"
+black = "^21.12b0"
+ipykernel = "^6.7.0"
 
 [build-system]
 requires = ["poetry-core"]
